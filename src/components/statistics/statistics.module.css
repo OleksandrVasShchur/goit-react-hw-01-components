@@ -1,0 +1,30 @@
+.statistics {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    padding: 5px;
+    background-color: rgb(217, 217, 217);
+}
+
+.title {
+    text-align: center;
+}
+
+.statlist {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+
+}
+.item {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px
+    ;
+}
+
+.percentage {
+    color: crimson;
+    font-size: 30px;
+}

@@ -1,0 +1,47 @@
+.profile {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    background-color: rgb(251, 215, 161);
+}
+.avatar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+
+}
+
+.name {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+
+}
+.tag {
+    text-align: center;
+    font-size: 30px;
+    color: gray;
+    font-weight: 400;
+}
+
+.location {
+    text-align: center;
+}
+.stats {
+    display: flex;
+    list-style: none;
+
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.quantity {
+    font-size: 30px;
+    color: brown;
+}
