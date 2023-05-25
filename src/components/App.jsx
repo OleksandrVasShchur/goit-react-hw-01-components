@@ -5,17 +5,16 @@ import TransactionHistory from "./transactions/transactionsHistory";
 import Profile from "./profile/profile";
 import Statistics from "./statistics/statistics";
 
-import user from './data/user';
-import data from './data/statistics';
-import friends from './data/friends';
-import transactions from './data/transactions';
+import user from 'data/user';
+import data from 'data/statistics';
+import friends from 'data/friends';
+import transactions from 'data/transactions';
 
 export const App = () => {
   return (
     <div
       style={{
         height: '100vh',
-        // display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
         fontSize: 40,
@@ -32,7 +31,7 @@ export const App = () => {
 />
 
 <Statistics title="Upload stats" stats={data} />
-{/* <Statistics stats={data} /> */}
+
 
 <FriendList friends={friends} />
 

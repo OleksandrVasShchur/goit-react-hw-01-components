@@ -1,18 +1,17 @@
 .friendlist {
-    padding: 15px;
-    list-style: none;
-    margin-right: auto;
-    margin-left: auto;
-    width: 430px;
-    
+  padding: 15px;
+  list-style: none;
+  margin-right: auto;
+  margin-left: auto;
+  width: 430px;
 }
 
 .item {
-    width: 400px;
-    display: flex;
-    gap: 70px;
-    justify-content: center;
-    align-items: baseline;
-    border: red;
-    height: 100px;
+  width: 400px;
+  display: flex;
+  gap: 70px;
+  justify-content: center;
+  align-items: baseline;
+  border: red;
+  height: 100px;
 }

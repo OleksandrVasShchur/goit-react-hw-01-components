@@ -1,47 +1,47 @@
 .profile {
-    width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 15px;
-    background-color: rgb(251, 215, 161);
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
 }
 .avatar {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 300px;
-
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  border-radius: 100%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .name {
-    text-align: center;
-    font-size: 40px;
-    font-weight: 600;
-
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
 }
 .tag {
-    text-align: center;
-    font-size: 30px;
-    color: gray;
-    font-weight: 400;
+  text-align: center;
+  font-size: 30px;
+  color: gray;
+  font-weight: 400;
 }
 
 .location {
-    text-align: center;
+  text-align: center;
 }
 .stats {
-    display: flex;
-    list-style: none;
-
+  display: flex;
+  list-style: none;
 }
 
 .info {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .quantity {
-    font-size: 30px;
-    color: brown;
+  font-size: 30px;
+  color: brown;
 }
